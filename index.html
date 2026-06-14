@@ -3,118 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Jeril Infant Portfolio</title>
+    <style>
+        nav ul{
+            background-color: aquamarine;
+            display:flex;
+            list-style-type: none;
+            justify-content: space-evenly;
+        }
+
+        body{
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        header{
+            background-color: navy;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section{
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        img{
+            border-radius: 50%;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
     </style>
-    <link rel="stylesheet"
-href="style.css"
-    
+
 </head>
 <body>
-    <header>
-        <h1>Jeril Infant</h1>
+    
+<header>
+    <h1>Jeril Infant J</h1>
+    <nav>
+        <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+     </ul>
+    </nav>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+</header>
 
-        </nav>
-    </header>
 
 <section id="about">
+
     <h2>About Me</h2>
 
-    <img src="photo.jpg"
-         alt="Jeril Infant Profile Photo"
-         class="profile-pic"> 
+    <img src="images/profile.jpg"
+         alt="Profile picture of Jeril"
+         Width="200">
 
-    
-    <p>
-        Hello! I am Jeril Infant from karur, Tamil Nadu.
-    I hold B.Sc., and B.Ed., qualification and have experience as a teacher.
-    I am passionate about education and technology.
-    Currently, I am learning my Full Stack  Development and improving my web devlopment skills.
-    </p>
-
-</section>
-
-<h2>Skills</h2>
-
-<ul>
-    <li>Teaching</li>
-     <li>HTML</li>
-      <li>CSS</li>
-       <li>GitHub</li>
-        <li>VS Code</li>
-         <li>Communication SKills</li>
-</ul>
-
-<article>
-    <h3>Personal Portfolio Website</h3>
-
-    <p>
-    Developed a personal portfolio website using HTML and deployed it using GitHub Pages.
-    </p>
-
-</article>
-
-<article>
-    <h3>Teacher Activity Showcase</h3>
-
-    <p>
-        Created a webpage to display classroom activities and student achievements.
-    </p>
-
-</article>
-
-<article>
-<h3>HTML Practice Website</h3>
+         <hr>
 
 <p>
-    A simple website created while learning HTML fundamentals.
+    Hai, My name is Jeril Infant.
+    I have experience working as a teacher and I am passionate about learning new skills.
+    Currently, I am pursuring Full Stack Development to build a career in the IT industry.
+    As a beginner in web development, I am learning HTML, CSS, Javascript and modern web technologies.
+    My goal is to become a skilled Full Stack Devloper and create user - friendly web applications.
 </p>
+
+</section>
+
+<hr>
+
+<h3>Skills</h3>
+
+<ul>
+    <li>HTML</li>
+    <li>GitHub</li>
+    <li>GitHub Pages</li>
+    <li>VS Code</li>
+    <li>Basic CSS</li>
+</ul>
+
+<hr>
+
+<article>
+    
+    <h3>Personal Portfolio website</h3>
+
+    <p>
+    Created a personal portfolio website using HTML and hosted it on GitHub Pages.
+    </p>
+    
+    <a href="https://jerilinfant-1530.github.io/jeril-portfolio/"target="blank">
+        My GitHub Profile
+    </a>
+
 
 </article>
 
-<section>
+<article>
 
-    <h2>Career Objectives</h2>
+    <h3>School Management Page</h3>
 
     <p>
-    My goal is to become a skilled Full Stack Developer while continuing to contribute to education.
-    I am committed to learning new technologies and developing useful web application.
+    Designed a simple webpage for school information and student activities.
     </p>
 
-</section>
+</article>
 
+<article>
+
+    <h3>Student Result Page</h3>
+
+    <p>
+    Created a static HTML page to display student examination results.
+    </p>
+
+</article>
+
+<hr>
+
+<!--  -->
 <section id="contact">
 
-    <h2>Contact Me</h2>
+<h2>Contact Me</h2>
 
-    <p>Email : 
-        <a href="mailto:jerilinfant@gmail.com">
-            jerilinfant1530@gmail.com
-        </a>
-    </p>
+<form>
 
-    <p>
-        <a href="https://jerilinfant-1530.github.io/jeril-portfolio/"
-        target="_blank"> My GitHub Profile
-    </a>
-    </p>
+<label>Name:</label>
+<input type="text" placeholder="Enter Name" required>
 
-    <p>Location : Karur, Tamil Nadu</p>
+<br><br>
+
+<label>Email:</label>
+<input type="email" placeholder="Enter Email" required>
+
+<br><br>
+
+<label>Subject:</label>
+<input type="text" placeholder="Enter Subject" required>
+
+<br><br>
+
+<label>Message:</label>
+<textarea placeholder="Enter Your Message" required></textarea>
+
+<br><br>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
 
 </section>
-
 
 <footer>
 
-    <p>&copy; 2026 Jeril Infant.</p>
-    <p>This Portfolio website was created as part of my Full Stack Development learning journey.
-    </p>
+<p>&copy; 2026 Jeril Infant. All Rights Reserved.</p>
 
+<p>
+    Email:
+    <a href="mailto:jerilinfant1530@gmail.com">
+        jerilinfant1530@gmail.com
+    </a>
+</p>
 </footer>
-   
+
 </body>
 </html>
+
